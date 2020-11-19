@@ -116,15 +116,15 @@ module.exports = {
               start_url: `/`,
               theme_color: `#A256FF`,
               display: `standalone`,
-              icon: `src/img/favicon.png`,
+              icon: `src/img/favicon/favicon.ico`,
               icons: [
                 {
-                  src: `src/img/favicon-192px.png`,
+                  src: `src/img/favicon/android-chrome-192x192.png`,
                   sizes: `192x192`,
                   type: `image/png`,
                 },
                 {
-                  src: `src/img/favicon-512px.png`,
+                  src: `src/img/favicon/favicon-512px.png`,
                   sizes: `512x512`,
                   type: `image/png`,
                 },
